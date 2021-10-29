@@ -7,4 +7,4 @@ server.get('/autores/listar', controller.autoresGetAll)
 
 server.get('/autores/consultar/:codigo', controller.autoresGetbyId)
 
-server.get('/autores/ativoinativo/:codigo', controller.autoresAtivoInativo)
+server.put('/autores/ativoinativo/:codigo', controller.autoresAtivoInativo)
